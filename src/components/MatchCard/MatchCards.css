@@ -1,0 +1,15 @@
+.card {
+  position: relative;
+  box-shadow: 0 6px 6px #999, 0 3px 6px #999;
+  text-align: left;
+  margin: 5px;
+}
+
+.card > .img-container {
+  overflow: hidden;
+  text-align: center;
+}
+.card > .img-container > img {
+  height: 100%;
+  width: 100%
+}
