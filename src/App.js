@@ -99,19 +99,20 @@ class App extends Component {
     render() {
         return (
             <Wrapper>
-                <Title>To boldly click where no one has clicked before!</Title>
-        
+
+            <Title>Trumpy Game</Title>
+
                 <h3 className="scoreSummary">
-                    {this.state.clickMessage}
-                </h3>
-                
-                <h3 className="scoreSummary">
-                    Correct Guesses: {this.state.correctGuesses} 
-                    <br />
-                    Best Score: {this.state.bestScore} 
+                {this.state.clickMessage}
                 </h3>
 
-                {this.state.matches.map(match => (
+                <h3 className="scoreSummary">
+                Correct Guesses: {this.state.correctGuesses} 
+                <br />
+                Best Score: {this.state.bestScore} 
+                </h3>  
+       
+            {this.state.matches.map(match => (
                     <MatchCard
                         setClicked={this.setClicked}
                         id={match.id}
@@ -119,6 +120,7 @@ class App extends Component {
                         image={match.image}
                     />
                 ))}
+                
             </Wrapper>
         );
     }
