@@ -3,6 +3,9 @@
   font-family: sans-serif;
 }
 
+body{
+  background-image: url("https://wallpapercave.com/wp/ZZyEOKU.jpg");
+}
 
 html, body, #root {
   padding: 0;

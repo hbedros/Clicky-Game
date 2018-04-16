@@ -1,5 +1,7 @@
 .title {
   width: 100%;
-  text-align: center;
-  color: black;
+  text-align: left;
+  color: white;
+  background: #cc0000;
+  background-attachment: fixed;
 }
